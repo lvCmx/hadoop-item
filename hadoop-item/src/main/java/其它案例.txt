@@ -1,0 +1,7 @@
+数据去重：当要去重的字段为key的时候，自动进行去重复。
+自定义计数器：
+	计数，计数hello出现的次数。
+	Counter counter = context.getCounter("custom counter","hello");
+	if("hello".equals(value)) {
+		counter.increment(1l);
+	}
