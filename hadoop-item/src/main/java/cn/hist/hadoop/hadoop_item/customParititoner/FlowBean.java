@@ -11,10 +11,10 @@ import org.apache.hadoop.io.Writable;
  * 如果我们需要对自定义的序列化类进行排序，重写其compleTo方法，则需要 extends WritableComparator
  */
 public class FlowBean implements Writable{
-	private String phoneNumber; //手机号
-	private long upFlow; //上行流量
-	private long downFlow; //下行流量
-	private long sumFlow;	//上下行总和
+	private String phoneNumberxxxxxxxxxx; //手机号
+	private long upFlowxxxxx; //上行流量
+	private long downFlowxxxxxxx; //下行流量
+	private long sumFlowxxxxxxxx;	//上下行总和
 	
 	public FlowBean() {
 	

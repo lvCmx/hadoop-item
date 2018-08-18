@@ -11,7 +11,7 @@ import org.apache.hadoop.io.WritableComparable;
  */
 public class OrderInfo implements WritableComparable<OrderInfo>{
 
-	private String name;
+	private String namexxxxxxxxxx;
 	private double money;
 	
 	public OrderInfo() {
